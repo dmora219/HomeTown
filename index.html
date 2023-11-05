@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     </head>
     <body>
         
@@ -34,11 +40,38 @@
         </div>
 
         <!-- GUIDE SECTION -->
-        <div>
-            <h3>Your guide</h3>
-            <p>"I have lived at Torshov for over 30 years, so I can show you all of its best parts and hidden secrets."</p>
-            <h4>Per Harald Borgen</h4>
-            <img src="images/per.jpg">
+        <div class="guide sizing">
+            <div class="card">
+                <img class="avatar" src="images/me.jpg">
+                <div class="guide-info">
+                    <h3 class="guide-text family">Your Guide</h3>
+                    <p class="guide-description family">"I lived in Chicago all my life! I know all its best and historic parts!"</p>
+                    <h4 class="guide-name family">David Mora</h4>
+                </div>
+            </div>
         </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <a href="https://scrimba.com/"><img class="scrimba"src="images/scrimba.jpg" alt="Company Logo"></a>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#" class="social">Home</a></li>
+                        <li><a href="#" class="social">About Us</a></li>
+                        <li><a href="#" class="social">Services</a></li>
+                        <li><a href="#" class="social">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <ul>
+                        <li><a href="#" class="social"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#" class="social"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="social"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#" class="social"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

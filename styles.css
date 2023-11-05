@@ -1,3 +1,8 @@
+/* Stretch Goals
+    
+
+*/
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +10,7 @@
 body {
     text-align: center;
     background: linear-gradient(#32303D ,#086F79);
-    height: 100vh;
+    height: 100%;
 }
 img {
     width: 100px;
@@ -58,4 +63,97 @@ h1, h2,h3,h4, p{
     font-size: 14px;
     width: 30%;
     font-style: italic;
+}
+.guide{
+    background-color: #04596B;
+}
+.card {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #023047;
+    color: white;
+    border-bottom: 6px solid #8ecae6;
+    border-right: 6px solid #8ecae6;
+}
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    transition: all 0.6s;
+}
+.avatar:hover {
+    transform: scale(1.2) rotate(360deg);
+}
+.guide-info{
+    margin-top: 10px;
+}
+.family{
+    font-family: 'Space Mono', monospace;
+    margin-top: 10px;
+}
+.guide-text{
+    font-weight: 700;
+}
+.guide-description{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+}
+.guide-name{
+    font-weight: 400;
+    text-shadow: 0px 0px 10px white;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li,
+.footer-social li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links a,
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.footer-social i {
+    font-size: 20px;
+}
+.social:hover{
+    color: orange;
+}
+.scrimba:hover{
+    border: 3px solid orange;
 }
