@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    text-align: center;
+    background: linear-gradient(#32303D ,#086F79);
+    height: 100vh;
+}
+img {
+    width: 100px;
+}
+h1, h2,h3,h4, p{
+    font-family: serif;
+    color: #FDFDFD;
+    text-shadow: 10px 10px 10px #32303D;
+}
+.main{
+    background: url(images/chicago.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.activities-section{
+    background: #093248;
+}
+.sizing{
+    display: block;
+    margin: auto; 
+    width: 90%;
+    height: 345px;
+    padding: 50px;
+}
+.activites{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    margin-top: 20px;
+}
+.activities-img{
+    border-radius: 50%;
+    transition: 0.6s;
+}
+.activities-img:hover{
+    transform: scale(1.2);
+}
+.attractions{
+    margin: 15px 0;
+    text-shadow: 0px 0px 15px white;
+    font-size: 21px;
+}
+.description{
+    font-size: 14px;
+    width: 30%;
+    font-style: italic;
+}
